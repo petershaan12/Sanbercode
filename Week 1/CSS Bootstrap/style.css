@@ -1,0 +1,56 @@
+.flex {
+	flex-direction: column;
+}
+
+.carousel-inner .d-block img {
+	width: 100px;
+}
+.carousel-item {
+	background-size: cover;
+	background-color: black;
+}
+
+
+.carousel-item .display-4 {
+	margin-top: 40px;
+	font-size: 40px;
+}
+
+.carousel-item hr {
+	border-color: #F05F40;
+	width: 70px;
+	border-width: 3px;
+}
+
+.carousel-item .btn {
+	background-color: #F05F40;
+	font-size: 10px;
+	border: none;
+	border-radius: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.col-lg-2 {
+	border: 1px solid black;
+}
+
+.col-lg-2 .table {
+	border: none;
+}
+
+.section {
+	height: 20px;
+}
+
+.container .dua {
+	height: 20px;
+}
+
+.col-lg-8 .tiga {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
