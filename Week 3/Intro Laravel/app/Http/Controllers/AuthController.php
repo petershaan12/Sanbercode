@@ -12,8 +12,8 @@ class AuthController extends Controller
     }
     public function form(Request $request) 
     {
-        $first = $request->first_name;
-        $last = $request->last_name;
+        $first = $request->First_name;
+        $last = $request->Last_name;
         // dd($first, $last)
 
         return view('welcome',  compact('first', 'last'));
